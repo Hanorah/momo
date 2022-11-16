@@ -1,0 +1,69 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25);  
+}
+strong{
+  color: aliceblue;
+}
+
+.css-typing p {
+  font-family: "Courier";
+  font-size: 0.5em;
+  width: 100%;
+}
+
+.container {
+  
+  display: flex;
+}
+.container p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 0.09rem;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-weight: normal;
+  color: #f2f2f7e8;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation:none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+.btn-danger{background-color:#23232556;border-color:#8aa19c;}
+.btn-danger:hover{background-color:#3c3a3d;border-color:#edf5f0;border-width:0.25em}
+.btn-xl{padding:2rem 3rem}
+.btn-danger{
+  background-color: #565c5a;
+  border: none;
+  color: rgb(54, 50, 50);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
